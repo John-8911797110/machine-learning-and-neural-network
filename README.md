@@ -9,9 +9,9 @@ pip3 install -r requirements.txt
 链接: https://pan.baidu.com/s/1vR-izcak1sKpGNIftT1KxQ  密码: 4tet
 
 ### 3. train and test model
-change train.py line 263 and 264 for train or test
 ```
-python3 train.py
+python train.py 'train'. # train
+python train.py 'test' --model_dir 'mlp_best.npy' --params_dir 'params_best.npy' # test
 ```
 ### 4. visualize your train 
 after training and in program dir
