@@ -150,7 +150,11 @@ class Linear:
 
 class MNIST_MLP:
     def __init__(self, alpha, input_size=784, hidden=256, out_class=10):
-
+        
+        self.alpha = alpha
+        self.input_size = input_size
+        self.hidden_size = hidden
+        self.out_size = out_class
         self.f1 = Linear(input_size, hidden, alpha)
         self.activate = Sigmoid()
         self.f2 = Linear(hidden, out_class, alpha)
@@ -247,10 +251,12 @@ def train():
 
                     if test_acc > best_acc:
                         best_acc, best_lr, best_hidden, best_alpha, best_epoch = test_acc, lr, hidden, alpha, epoch
+                        input1, output1, input2, output2, alpha = net.input_size, net.hidden_size, net.hidden_size, net.out_size, net.alpha
                         params = np.array([best_acc, best_lr, best_hidden, best_alpha, best_epoch])
                         np.save('params_best.npy', params)
                         net.save_model('mlp_best.npy')
     print('best_lr: ', best_lr, 'best_hidden: ', best_hidden, 'best_alpha: ', best_alpha, 'best_epoch: ', best_epoch,' best_acc: ', best_acc)
+    print('linear1: input size {} output size {}\n'.format(input1, output1), 'linear2: input size {} output size {}\n'.format(input2, output2))
 
 def test(model_dir, params_dir):
     lr, hidden, alpha, epoch, acc = np.load(params_dir)
