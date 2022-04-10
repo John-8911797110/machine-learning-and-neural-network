@@ -2,6 +2,7 @@ import numpy as np
 import struct
 import os
 from tensorboardX import SummaryWriter
+import argparse
 
 MNIST_DIR = r"mnist_data"
 TRAIN_DATA = "train-images-idx3-ubyte"
@@ -15,6 +16,13 @@ np.random.seed(123)
 EPOCH = 50
 BATCHSIZE = 128
 
+def arg_parser():
+    argparser = argparse.ArgumentParser()
+    argparser.add_argument('phase', help='train or test', type=str)
+    argparser.add_argument('--model_dir', help='model dir if test')
+    argparser.add_argument('--params_dir', help='params dir if test')
+    args = argparser.parse_args()
+    return args
 
 def load_mnist(file_dir, is_images='True'):
     # Read binary data
@@ -58,7 +66,7 @@ def cal_accuracy(y, y_pred):
     acc = np.sum(p == q) / y.shape[1]
     return acc
 
-# Relu not use in our model
+# relu not use in our model
 class Relu:
     def __init__(self):
         self.result = None
@@ -254,9 +262,15 @@ def test(model_dir, params_dir):
     test_acc = np.mean(y_test_pred == test_data[:, -1])
     print('test accuracy: ', test_acc)
 
+def main():
+    cfg = arg_parser()
+    if cfg.phase == 'train':
+        train()
+    elif cfg.phase == 'test':
+        test(cfg.model_dir, cfg.params_dir)
+
 if __name__ == '__main__':
-    # train()
-    test('mlp_1.npy', 'params_best.npy')
+    main()
 
 
 
