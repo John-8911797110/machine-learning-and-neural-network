@@ -58,6 +58,7 @@ def cal_accuracy(y, y_pred):
     acc = np.sum(p == q) / y.shape[1]
     return acc
 
+# Relu not use in our model
 class Relu:
     def __init__(self):
         self.result = None
