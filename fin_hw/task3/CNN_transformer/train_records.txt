@@ -1,0 +1,300 @@
+
+
+******Train loss: 4.783685684204102 Total iteration 0
+
+
+******Train loss: 4.649879455566406 Total iteration 1
+
+
+******Train loss: 4.797809600830078 Total iteration 2
+
+
+******Train loss: 4.7830986976623535 Total iteration 3
+
+
+******Train loss: 4.802674293518066 Total iteration 4
+
+
+******Train loss: 4.8595871925354 Total iteration 5
+
+
+******Train loss: 4.797549724578857 Total iteration 6
+
+
+******Train loss: 4.873710632324219 Total iteration 7
+
+
+******Train loss: 4.890431880950928 Total iteration 8
+
+
+******Train loss: 4.7651777267456055 Total iteration 9
+
+
+******Train loss: 4.773393630981445 Total iteration 10
+
+
+******Train loss: 4.8306803703308105 Total iteration 11
+
+
+******Train loss: 4.68263053894043 Total iteration 12
+
+
+******Train loss: 4.675978183746338 Total iteration 13
+
+
+******Train loss: 4.852450847625732 Total iteration 14
+
+
+******Train loss: 4.927240371704102 Total iteration 15
+
+
+******Train loss: 4.764578819274902 Total iteration 16
+
+
+******Train loss: 4.8689985275268555 Total iteration 17
+
+
+******Train loss: 4.7397050857543945 Total iteration 18
+
+
+******Train loss: 4.754894256591797 Total iteration 19
+
+
+******Train loss: 4.854157447814941 Total iteration 20
+
+
+******Train loss: 4.848715782165527 Total iteration 21
+
+
+******Train loss: 4.691648960113525 Total iteration 22
+
+
+******Train loss: 4.861754894256592 Total iteration 23
+
+
+******Train loss: 4.7835469245910645 Total iteration 24
+
+
+******Train loss: 4.81749963760376 Total iteration 25
+
+
+******Train loss: 4.790587902069092 Total iteration 26
+
+
+******Train loss: 4.821216583251953 Total iteration 27
+
+
+******Train loss: 4.812701225280762 Total iteration 28
+
+
+******Train loss: 4.855315208435059 Total iteration 29
+
+
+******Train loss: 4.774826526641846 Total iteration 30
+
+
+******Train loss: 4.651339530944824 Total iteration 31
+
+
+******Train loss: 4.722812175750732 Total iteration 32
+
+
+******Train loss: 4.702334403991699 Total iteration 33
+
+
+******Train loss: 4.604071617126465 Total iteration 34
+
+
+******Train loss: 4.711295127868652 Total iteration 35
+
+
+******Train loss: 4.744112491607666 Total iteration 36
+
+
+******Train loss: 4.884496688842773 Total iteration 37
+
+
+******Train loss: 4.715948104858398 Total iteration 38
+
+
+******Train loss: 4.834878444671631 Total iteration 39
+
+
+******Train loss: 4.653262615203857 Total iteration 40
+
+
+******Train loss: 4.737674236297607 Total iteration 41
+
+
+******Train loss: 4.7622971534729 Total iteration 42
+
+
+******Train loss: 4.722189426422119 Total iteration 43
+
+
+******Train loss: 4.7216291427612305 Total iteration 44
+
+
+******Train loss: 4.72903299331665 Total iteration 45
+
+
+******Train loss: 4.6321492195129395 Total iteration 46
+
+
+******Train loss: 4.767058849334717 Total iteration 47
+
+
+******Train loss: 4.740224361419678 Total iteration 48
+
+
+******Train loss: 4.953113079071045 Total iteration 49
+
+
+******Train loss: 4.76193380355835 Total iteration 50
+
+
+******Train loss: 4.721254348754883 Total iteration 51
+
+
+******Train loss: 4.8428778648376465 Total iteration 52
+
+
+******Train loss: 4.680840015411377 Total iteration 53
+
+
+******Train loss: 4.887078762054443 Total iteration 54
+
+
+******Train loss: 4.691612243652344 Total iteration 55
+
+
+******Train loss: 4.586781024932861 Total iteration 56
+
+
+******Train loss: 4.551201820373535 Total iteration 57
+
+
+******Train loss: 4.729773044586182 Total iteration 58
+
+
+******Train loss: 4.70274543762207 Total iteration 59
+
+
+******Train loss: 4.597348690032959 Total iteration 60
+
+
+******Train loss: 4.714640140533447 Total iteration 61
+
+
+******Train loss: 4.722822189331055 Total iteration 62
+
+
+******Train loss: 4.792813301086426 Total iteration 63
+
+
+******Train loss: 4.676143646240234 Total iteration 64
+
+
+******Train loss: 4.730199337005615 Total iteration 65
+
+
+******Train loss: 4.784217357635498 Total iteration 66
+
+
+******Train loss: 4.631153583526611 Total iteration 67
+
+
+******Train loss: 4.675966739654541 Total iteration 68
+
+
+******Train loss: 4.712947845458984 Total iteration 69
+
+
+******Train loss: 4.6013712882995605 Total iteration 70
+
+
+******Train loss: 4.64288854598999 Total iteration 71
+
+
+******Train loss: 4.676513195037842 Total iteration 72
+
+
+******Train loss: 4.624460697174072 Total iteration 73
+
+
+******Train loss: 4.655423641204834 Total iteration 74
+
+
+******Train loss: 4.6628031730651855 Total iteration 75
+
+
+******Train loss: 4.55200719833374 Total iteration 76
+
+
+******Train loss: 4.736597061157227 Total iteration 77
+
+
+******Train loss: 4.64922571182251 Total iteration 78
+
+
+******Train loss: 4.656363487243652 Total iteration 79
+
+
+******Train loss: 4.587878227233887 Total iteration 80
+
+
+******Train loss: 4.5780863761901855 Total iteration 81
+
+
+******Train loss: 4.63557243347168 Total iteration 82
+
+
+******Train loss: 4.698295593261719 Total iteration 83
+
+
+******Train loss: 4.583373069763184 Total iteration 84
+
+
+******Train loss: 4.551760673522949 Total iteration 85
+
+
+******Train loss: 4.569533348083496 Total iteration 86
+
+
+******Train loss: 4.533472061157227 Total iteration 87
+
+
+******Train loss: 4.550230979919434 Total iteration 88
+
+
+******Train loss: 4.534265518188477 Total iteration 89
+
+
+******Train loss: 4.636506080627441 Total iteration 90
+
+
+******Train loss: 4.591671943664551 Total iteration 91
+
+
+******Train loss: 4.559161186218262 Total iteration 92
+
+
+******Train loss: 4.492084503173828 Total iteration 93
+
+
+******Train loss: 4.535266399383545 Total iteration 94
+
+
+******Train loss: 4.595930099487305 Total iteration 95
+
+
+******Train loss: 4.550628662109375 Total iteration 96
+
+
+******Train loss: 4.482863903045654 Total iteration 97
+
+
+******Train loss: 4.568570613861084 Total iteration 98
+
+
+******Train loss: 4.527618885040283 Total iteration 99
