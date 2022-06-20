@@ -7,10 +7,10 @@
 ### 文件下载
 在这里下载checkpoint和log文件  
 
-[CeiT]([url](https://pan.baidu.com/s/1zvmNg50kYrgA9nL-8d2myg  ))：  
+[CeiT](https://pan.baidu.com/s/1zvmNg50kYrgA9nL-8d2myg)：  
 提取码：4aej  
 
-[CNN]([url](https://pan.baidu.com/s/1Y53VkqbLyD9MOciWnZd76w ))：  
+[CNN](https://pan.baidu.com/s/1Y53VkqbLyD9MOciWnZd76w)：  
 提取码：kfus   
 
 ### CNN
@@ -60,7 +60,7 @@ c) Mask-Rcnn init ResNet50
 python tools/train.py configs/amy_config/faster_rcnn_r50_fpn_1x_voc_normal_init.py  --auto-scale-lr
 # change faster_rcnn_r50_fpn_1x_voc_normal_init.py line 6 checkpoint=mask_res50.pth
 ```
-[mask_res50.pth is here]([url](https://pan.baidu.com/s/1HNbPocLiQbDca5H2L7FuoQ)) code: cugw 
+[mask_res50.pth is here](https://pan.baidu.com/s/1HNbPocLiQbDca5H2L7FuoQ) code: cugw 
 
 ### Reference:
 * [Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/pdf/2103.11816v2.pdf)
