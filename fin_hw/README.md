@@ -1,8 +1,10 @@
-## cifar100-classification-with-CNN-and-Transformer
+## cifar100-classification-with-CNN-and-Transformer（Task1 & Task3）
 
 本次实验使用CeiT作为 CNN + Transformer 的网络模型  
 使用 ResNet50 作为相同参数量的CNN对比模型1  
 使用 DenseNet201 作为相同浮点数计算量的CNN对比模型2 
+分割结果：[链接](https://pan.baidu.com/s/1Ks3TcoZ2XvDp8N6oE0ueHA) 
+提取码：v6m5 
 
 ### 文件下载
 在这里下载checkpoint和log文件  
@@ -13,7 +15,7 @@
 [CNN](https://pan.baidu.com/s/1Y53VkqbLyD9MOciWnZd76w)：  
 提取码：kfus   
 
-### CNN
+### Task1(Semantic Segmentation for driving video)
 CNN 文件夹中包含两个模型，ResNet50 和 DenseNet201 
  
 #### train:
@@ -27,7 +29,7 @@ python test.py -net densenet201 -weights checkpoint/densenet201.pth -gpu
 ```
 checkpoint文件见百度网盘  
 
-### CeiT
+### Task3(CeiT)
 CNN_Transformer 文件夹中包含CeiT的相关文件 
 
 #### Train :
@@ -42,7 +44,7 @@ python test.py -c configs/defaul.yaml --name "test" -p checkpoint/checkpoint.pyt
 ```
 checkpoint 文件见百度网盘
 
-## Task2:
+## Task2(Faster-Rcnn):
 
 ### install mmdetetion 
 a) random init ResNet50 
