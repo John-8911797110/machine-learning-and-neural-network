@@ -1,7 +1,6 @@
 # Mid-term Homework
 
-### 1. 
-
+### 1. Train Res50
 
 
 ### 2. Train YOLOv3
